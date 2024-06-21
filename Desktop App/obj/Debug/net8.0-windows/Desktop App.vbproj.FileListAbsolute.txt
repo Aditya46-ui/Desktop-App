@@ -1,0 +1,22 @@
+C:\Users\ADITYA\source\repos\Desktop App\Desktop App\obj\Debug\net8.0-windows\Desktop_App.MainForm.resources
+C:\Users\ADITYA\source\repos\Desktop App\Desktop App\obj\Debug\net8.0-windows\Desktop App.vbproj.GenerateResource.cache
+C:\Users\ADITYA\source\repos\Desktop App\Desktop App\obj\Debug\net8.0-windows\Desktop App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADITYA\source\repos\Desktop App\Desktop App\obj\Debug\net8.0-windows\Desktop App.AssemblyInfoInputs.cache
+C:\Users\ADITYA\source\repos\Desktop App\Desktop App\obj\Debug\net8.0-windows\Desktop App.AssemblyInfo.vb
+C:\Users\ADITYA\source\repos\Desktop App\Desktop App\obj\Debug\net8.0-windows\Desktop App.vbproj.CoreCompileInputs.cache
+C:\Users\ADITYA\source\repos\Desktop App\Desktop App\bin\Debug\net8.0-windows\Desktop App.exe
+C:\Users\ADITYA\source\repos\Desktop App\Desktop App\bin\Debug\net8.0-windows\Desktop App.deps.json
+C:\Users\ADITYA\source\repos\Desktop App\Desktop App\bin\Debug\net8.0-windows\Desktop App.runtimeconfig.json
+C:\Users\ADITYA\source\repos\Desktop App\Desktop App\bin\Debug\net8.0-windows\Desktop App.dll
+C:\Users\ADITYA\source\repos\Desktop App\Desktop App\bin\Debug\net8.0-windows\Desktop App.pdb
+C:\Users\ADITYA\source\repos\Desktop App\Desktop App\obj\Debug\net8.0-windows\Desktop App.dll
+C:\Users\ADITYA\source\repos\Desktop App\Desktop App\obj\Debug\net8.0-windows\refint\Desktop App.dll
+C:\Users\ADITYA\source\repos\Desktop App\Desktop App\obj\Debug\net8.0-windows\Desktop App.pdb
+C:\Users\ADITYA\source\repos\Desktop App\Desktop App\obj\Debug\net8.0-windows\Desktop App.genruntimeconfig.cache
+C:\Users\ADITYA\source\repos\Desktop App\Desktop App\obj\Debug\net8.0-windows\ref\Desktop App.dll
+C:\Users\ADITYA\source\repos\Desktop App\Desktop App\obj\Debug\net8.0-windows\Desktop_App.CreateSubmissionForm.resources
+C:\Users\ADITYA\source\repos\Desktop App\Desktop App\obj\Debug\net8.0-windows\Desktop_App.ViewSubmissionsForm.resources
+C:\Users\ADITYA\source\repos\Desktop App\Desktop App\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\ADITYA\source\repos\Desktop App\Desktop App\obj\Debug\net8.0-windows\Desktop App.vbproj.AssemblyReference.cache
+C:\Users\ADITYA\source\repos\Desktop App\Desktop App\obj\Debug\net8.0-windows\Desktop .D6F21FF4.Up2Date
+C:\Users\ADITYA\source\repos\Desktop App\Desktop App\obj\Debug\net8.0-windows\Desktop_App.EditSubmissionForm.resources
