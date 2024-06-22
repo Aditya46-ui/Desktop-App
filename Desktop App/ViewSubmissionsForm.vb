@@ -131,6 +131,15 @@ Public Class ViewSubmissionsForm
             MessageBox.Show("Error searching submissions: " & ex.Message)
         End Try
     End Sub
+    Private Sub ViewSubmissionsForm_KeyDown(sender As Object, e As KeyEventArgs) Handles MyBase.KeyDown
+        If e.Control AndAlso e.KeyCode = Keys.P Then
+            btnPrevious.PerformClick()
+            e.SuppressKeyPress = True ' Suppress the key event
+        ElseIf e.Control AndAlso e.KeyCode = Keys.N Then
+            btnNext.PerformClick()
+            e.SuppressKeyPress = True ' Suppress the key event
+        End If
+    End Sub
 End Class
 
 
