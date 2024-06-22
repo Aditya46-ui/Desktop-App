@@ -7,7 +7,6 @@ Public Class ViewSubmissionsForm
 
     Private Sub ViewSubmissionsForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         LoadSubmissions()
-        DisplaySubmission(currentIndex)
     End Sub
 
     Private Async Sub LoadSubmissions()
@@ -17,6 +16,12 @@ Public Class ViewSubmissionsForm
                 If response.IsSuccessStatusCode Then
                     Dim json = Await response.Content.ReadAsStringAsync()
                     submissions = JsonConvert.DeserializeObject(Of List(Of Submission))(json)
+                    If submissions IsNot Nothing AndAlso submissions.Count > 0 Then
+                        DisplaySubmission(currentIndex)
+                    Else
+                        MessageBox.Show("No submissions found.")
+                        ClearLabels()
+                    End If
                 Else
                     MessageBox.Show("Error loading submissions: " & response.ReasonPhrase)
                 End If
@@ -122,6 +127,7 @@ Public Class ViewSubmissionsForm
                         DisplaySubmission(currentIndex)
                     Else
                         MessageBox.Show("No submissions found for this email.")
+                        ClearLabels()
                     End If
                 Else
                     MessageBox.Show("Error searching submissions: " & response.ReasonPhrase)
@@ -131,6 +137,7 @@ Public Class ViewSubmissionsForm
             MessageBox.Show("Error searching submissions: " & ex.Message)
         End Try
     End Sub
+
     Private Sub ViewSubmissionsForm_KeyDown(sender As Object, e As KeyEventArgs) Handles MyBase.KeyDown
         If e.Control AndAlso e.KeyCode = Keys.P Then
             btnPrevious.PerformClick()
